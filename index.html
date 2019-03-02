@@ -24,32 +24,38 @@
         <br>
         <br>
         <hr>
-        <p>
+        <p id="question1">
             <strong>1.) The dot over the "i" and the "j" is called the Tittle!</strong>
             <br>
-            <input type="checkbox" name="answer" class="check"> True<br>
-            <input type="checkbox" name="answer" class="check"> False<br>
+            <input id="correctAnswer1" type="checkbox" name="answer1" class="check"> True<br>
+            <input id="wrongAnswer1" type="checkbox" name="answer1" class="check"> False<br>
         </p>
         <hr>
-        <p>
+        <p id="question2">
             <strong>2.) When a burning cigarette is inhaled, the temperature of the tip is 500 degrees celsius!</strong>
             <br>
-            <input type="checkbox" name="answer" class="check"> True<br>
-            <input type="checkbox" name="answer" class="check"> False<br>
+            <input id="wrongAnswer2" type="checkbox" name="answer2" class="check"> True<br>
+            <input id="correctAnswer2" type="checkbox" name="answer2" class="check"> False<br>
         </p>
         </p>
         <hr>
-        <p>
+        <p id="question3">
             <strong>3.) Men buy an average of 3.4 pairs of underwear a year!</strong>
             <br>
-            <input type="checkbox" name="answer" class="check"> True<br>
-            <input type="checkbox" name="answer" class="check"> False<br>
+            <input id="correctAnswer3" type="checkbox" name="answer3" class="check"> True<br>
+            <input id="wrongAnswer3" type="checkbox" name="answer3" class="check"> False<br>
         </p>
         </p>
         <br>
         <button type="button">Submit</button>
-
     </div>
+
+    <div id="answers">
+        <p id="correctAnswers"></p>
+        <p id="wrongAnswers"></p>
+        <p id="unAnswered"></p>
+    </div> 
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

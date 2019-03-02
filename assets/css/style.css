@@ -30,3 +30,16 @@ button {
     border: solid black 3px;
     text-decoration: underline;
 }
+
+#answers {
+    width: 350px;
+    height: 325px;
+    background: cornflowerblue;
+    border: solid black 3px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+    margin-left: 450px;
+    margin-top: 150px;
+}
