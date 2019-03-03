@@ -82,10 +82,11 @@ $(document).ready(function(){
           $(".questionsContainer").hide();
       $("#answers").show();
 
+
       
       })
     })
 
-    $("#wrongAnswers").text("Correct Answers:" + correctAnswers);
+    $("#wrongAnswers").text("Wrong Answers:" + wrongAnswers);
     $("#unAnswered").text("UnAnswered: " + unAnswered);
     
